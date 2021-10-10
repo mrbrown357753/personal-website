@@ -1,0 +1,13 @@
+#main-header
+{
+    flex-direction: column;
+}
+#main-header .left-div
+{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+#main-header .right-div
+{
+    margin-bottom: 390px;
+}
