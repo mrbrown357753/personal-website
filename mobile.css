@@ -18,3 +18,8 @@ body{
 {
     margin-right: 0px;
 }
+#main-header .third-div .aboutme-div .me-image
+{
+    height: 100px;
+    align-self: center;
+}
