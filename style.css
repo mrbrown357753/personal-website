@@ -6,12 +6,16 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    /* background: #fdfefe; */
-    background: #E5E7E9;
+    background: #fdfefe;
+    /* background: #E5E7E9; */
 }
 .container
 {
     padding: 0.5rem;
+}
+.highlight
+{
+    color: #FF5733;
 }
 /* navbar */
 #navbar
@@ -35,24 +39,32 @@ body{
 #main-header .left-div
 {
     flex: 1;
-    height: 80vh;
+    height: 22vh;
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     margin-right: 10px;
     /* background: #D5F5E3; */
     /* background: #2C3E50 ; */
     background: #424949;
+    /* background: #fdfefe; */
     /* color: #17202A; */
     color: #fdfefe;
     border-radius: 15px;
+    text-align: center;
 }
+
+/* #main-header .left-div .left-div-1
+{
+    background: #424949;
+} */
 #main-header .right-div
 {
-    flex: 2;
-    height: 80vh;
+    flex: 1;
+    height: 22vh;
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     text-align: center;
+    /* margin-right: 10px; */
     /* background: #FCF3CF; */
     background: #424949;
     /* color: #17202A; */
@@ -63,12 +75,13 @@ body{
 {
     padding: 20px;
 }
-#main-header .left-div .socials img
+
+/* #main-header .left-div .socials img
 {
     display: block;
     height: 60px;
     width: 80px;
-}
+} */
 #main-header .left-div .socials
 {
     display: flex;
@@ -81,6 +94,39 @@ body{
 #main-header .left-div .socials .social-icons i
 {
     color: #FF5733;
+}
+/* about me div in header */
+#main-header .third-div
+{
+    flex: 1;
+    height: 45vh;
+    border: #f4f4f4 0.7px solid;
+    padding: 1rem;
+    /* text-align: center; */
+    /* background: #FCF3CF; */
+    background: #424949;
+    /* color: #17202A; */
+    color: #fdfefe;
+    border-radius: 15px;
+    order: -1;
+    margin-right: 10px;
+}
+#main-header .third-div img{
+    height: 180px;
+    width: 130px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+#main-header .third-div .third-div-heading{
+    margin-bottom: 1rem;
+    color: #FF5733;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#main-header .third-div .aboutme-div
+{
+    display: flex;
+    padding: 1rem;
 }
 /* footer */
 #main-footer
