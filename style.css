@@ -111,11 +111,13 @@ body{
     order: -1;
     margin-right: 10px;
 }
-#main-header .third-div img{
+#main-header .third-div .aboutme-div .me-image{
+    background: #333 url('img/compressed.jpg') no-repeat center center/cover;
     height: 180px;
-    width: 130px;
-    border-radius: 20px;
+    width: 170%;
+    /* padding: 1rem; */
     margin-right: 20px;
+    border-radius: 20px;
 }
 #main-header .third-div .third-div-heading{
     margin-bottom: 1rem;
