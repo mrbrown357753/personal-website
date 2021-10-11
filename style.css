@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    background: #fdfefe;
 }
 .container
 {
@@ -16,6 +17,8 @@ body{
 {
     /* background: #D5DBDB; */
     color: #FF5733;
+    /* color: #fff; */
+
 }
 #navbar h1{
     padding: 0.5rem;
@@ -35,8 +38,12 @@ body{
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     margin-right: 10px;
-    background: #D5F5E3;
-    color: #17202A;
+    /* background: #D5F5E3; */
+    /* background: #2C3E50 ; */
+    background: #424949;
+    /* color: #17202A; */
+    color: #fdfefe;
+    border-radius: 15px;
 }
 #main-header .right-div
 {
@@ -45,8 +52,11 @@ body{
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     text-align: center;
-    background: #FCF3CF;
-    color: #333;
+    /* background: #FCF3CF; */
+    background: #424949;
+    /* color: #17202A; */
+    color: #fdfefe;
+    border-radius: 15px;
 }
 #main-header .left-div .socials
 {
@@ -67,10 +77,15 @@ body{
 {
     margin: 0 5px;
 }
+#main-header .left-div .socials .social-icons i
+{
+    color: #FF5733;
+}
 /* footer */
 #main-footer
 {
     padding: 1rem;
     text-align: center;
-    background: #FADBD8;
+    /* background: #FADBD8; */
+    color: #17202A;
 }
