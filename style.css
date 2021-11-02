@@ -39,7 +39,7 @@ body{
 #main-header .left-div
 {
     flex: 1;
-    height: 22vh;
+    height: 45vh;
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     margin-right: 10px;
@@ -60,7 +60,7 @@ body{
 #main-header .right-div
 {
     flex: 1;
-    height: 22vh;
+    height: 45vh;
     border: #f4f4f4 0.7px solid;
     padding: 1rem;
     text-align: center;
@@ -130,6 +130,28 @@ body{
     display: flex;
     padding: 1rem;
 }
+/* below socials */
+#main-header .left-div h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#main-header .left-div .games a{
+    text-decoration: none;
+}
+#main-header .left-div .games a:hover
+{
+    color: #FF5733;
+    background: #fdfefe;
+}
+.btn
+{
+    color: #fdfefe;
+    background:#FF5733;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 0 20px;
+}
+
 /* footer */
 #main-footer
 {
